@@ -1,0 +1,65 @@
+/* Mengatur reset CSS untuk memastikan tampilan konsisten di semua browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0099CC;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    color: white;
+}
+
+.photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact-info h1 {
+    margin-bottom: 10px;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section h2 {
+    color: #0099CC;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0099CC;
+    display: inline-block;
+}
+
+.section ul {
+    list-style-type: none;
+}
+
+.section ul li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
